@@ -4,6 +4,8 @@
 // lengthOfLongestSubstring("abcabcbb") --> 3 since length of "abc"
 // lengthOfLongestSubstring("bbbbb") --> 1 since length of "b"
 
+// Time O(n) space O(min(m,n)) m because of the size of the alphabet & n because of str.length
+
 function lengthOfLongestSubstring(s) {
   let letters = {};
   let max = 1;
