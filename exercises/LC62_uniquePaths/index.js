@@ -1,3 +1,6 @@
+// time O(m*n)
+// space O(m*n)
+
 function uniquePaths(cols, rows) {
   let dpMatrix = [];
 
