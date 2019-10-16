@@ -1,3 +1,6 @@
+// time O(n*m)
+// space O(1)
+
 function numIslands(grid) {
   let counter = 0;
 
