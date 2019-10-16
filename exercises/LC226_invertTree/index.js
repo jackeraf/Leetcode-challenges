@@ -1,3 +1,6 @@
+// time O(n)
+// space O(1)
+
 function invertTree(root) {
   helper(root);
   return root;
