@@ -1,3 +1,6 @@
+// time O(n*m)
+// space O(n)
+
 function spiralOrder(matrix) {
   let top = 0;
   let bottom = matrix.length - 1;
